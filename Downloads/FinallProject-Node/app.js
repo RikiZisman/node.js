@@ -8,7 +8,6 @@ const meetingController = require('./controllers/meeting.controller');
 const authMiddleware = require('./middleware/middleware');
 const PORT = process.env.PORT || 3000
 
-
 app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded());
